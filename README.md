@@ -1,4 +1,4 @@
-# ROS 2 Driver Repository
+# ROS 2 YD Lidar Driver [Humble & Jazzy Tested]
 
 Before using this repository, make sure to download and set up the YDLidar SDK:
 
@@ -17,7 +17,7 @@ This SDK is required for proper communication with the YDLidar.
 ## Prerequisites
 
 Ensure you have the following installed:
-- ROS 2 (Humble, Iron, or appropriate distribution)
+- ROS 2 (Humble, Jazzy, Iron, or appropriate distribution)
 - Colcon build tool
 - Git
 
@@ -31,7 +31,6 @@ cd ~/ros2_ws/src
 
 ### 2. Clone the Required Repositories
 ```bash
-git clone <your-repo-url>
 git clone https://github.com/KarthikeshJG/ydlidar_ros2_driver.git
 ```
 
@@ -52,6 +51,7 @@ source install/setup.bash
 ```bash
 ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
 ```
+![Uploading image.png…]()
 
 This will start the YDLidar ROS 2 driver and allow you to visualize the LiDAR data.
 
