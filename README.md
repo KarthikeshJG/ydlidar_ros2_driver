@@ -51,7 +51,7 @@ source install/setup.bash
 ```bash
 ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
 ```
-![Uploading image.png…]()
+![Screenshot from 2025-03-07 11-52-23](https://github.com/user-attachments/assets/2d55e966-8395-4240-8f6d-20ac73232ac9)
 
 This will start the YDLidar ROS 2 driver and allow you to visualize the LiDAR data.
 
